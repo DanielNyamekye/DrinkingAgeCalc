@@ -4,7 +4,11 @@ class Netherlands : Country
 {
   String Country.GetName() { return "Netherlands"; }
 
-  void Country.CheckPublicLegsality(int age)
+
+  
+
+  void Country.CheckPublicLegsality(uint age)
+
   {
     if (age < 18)
     {
